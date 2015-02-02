@@ -1,5 +1,6 @@
 <apex:page controller="AngularRemoting_Con">  
-   <apex:includeScript value="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"/>  
+  <apex:stylesheet value="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+  <apex:includeScript value="//ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"/>  
    <!--Remoting Stuff-->  
    <script>
      var SVC_CONFIG = {
